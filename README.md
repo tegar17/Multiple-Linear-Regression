@@ -72,9 +72,11 @@ The notebook imports `MultipleLinearRegression` from the project-root Python fil
 
 This project is an educational implementation focused on understanding the mechanics behind linear regression: feature preparation, parameter initialization, gradient updates, prediction, loss tracking, and regression evaluation. It is a learning project rather than a production-ready prediction service.
 
-## Next steps
+## References
 
-- Fit preprocessing statistics on the training split only, then reuse them for test data.
-- Compare predictions with a baseline and report additional regression metrics, such as MAE and RMSE.
-- Validate model inputs and training parameters for clearer error messages.
-- Compare the from-scratch implementation with a trusted library implementation.
+This project was built and adapted using insights and mathematical foundations from the following resources:
+
+- **Kaggle:** [Multiple Linear Regression From Scratch](https://www.kaggle.com/code/jaypradipshah/multiple-linear-regression-from-scratch) by Jay Pradip Shah
+- **Medium (Analytics Vidhya):** [Multiple Linear Regression from scratch using Python](https://medium.com/analytics-vidhya/multiple-linear-regression-from-scratch-using-python-db9368859f)
+- **GeeksforGeeks:** [ML | Multiple Linear Regression using Python](https://www.geeksforgeeks.org/machine-learning/ml-multiple-linear-regression-using-python/)
+- **YouTube:** [Linear Regression From Scratch in Python (Mathematical)](https://youtu.be/VmbA0pi2cRQ) by NeuralNine
